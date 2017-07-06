@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="nableamea.ghcalculator.SpecialPrecautionActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ειδικές Προφυλάξεις"
+            android:id="@+id/textView6"
+            android:textColor="@color/header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/special_precaution_textView"
+            android:background="@drawable/recommended_dosage_backgr"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#4d6b9e"
+            android:visibility="visible"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Κεντρικη"
+            android:id="@+id/backButton2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+    </LinearLayout>
+</RelativeLayout>

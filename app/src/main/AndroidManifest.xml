@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nableamea.ghcalculator" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/menulogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogInActivity"
+            android:label="@string/title_activity_log_in"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".RecommendedDosageActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpecialPrecautionActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InformationActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NableAMEAActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DosemeterActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/PopUpTheme" />
+        <activity android:name=".CommitteeDosageActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GHDActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TurnerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".YellowCardActivity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NOMPressActivity"
+            android:label=""
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+    </application>
+
+</manifest>

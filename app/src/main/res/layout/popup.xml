@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup_element"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:lineSpacingExtra="1dp"
+        android:text="Η εφαρμογή δημιουργήθηκε από την Nable AMEA το 2015. "
+        android:id="@+id/nableTextView"
+        android:textColor="#4d6b9e"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Site: www.nableamea.gr/"
+        android:id="@+id/textView4"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:autoLink="all"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="3dp"
+        android:textColor="#4d6b9e"
+        android:textColorLink="#0000FF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/nable"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Κλεισιμο"
+        android:background="@drawable/round_button"
+        android:id="@+id/closeButton"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+</LinearLayout>

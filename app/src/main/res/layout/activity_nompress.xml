@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="nableamea.ghcalculator.NOMPressActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/products_table">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4ab9ed">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Προϊόν"
+                        android:id="@+id/product_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="1.6"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Εταιρεία"
+                        android:id="@+id/company_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="2.2"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="mg/strength"
+                        android:id="@+id/mg_strength_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="1.2"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="€/mg"
+                        android:id="@+id/price_mg_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Φυσίγγια\n(6 μήνες)"
+                        android:id="@+id/six_month_dose_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="€/6μηνο"
+                        android:id="@+id/six_month_cost_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Εβδομαδιαία\n/ mg"
+                        android:id="@+id/week_mg_cell"
+                        android:textColor="#4d6b9e"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:visibility="gone" />
+
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

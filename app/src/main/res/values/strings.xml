@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">GHCalculator</string>
+    <string name="title_activity_splash_screen">GHCalculator</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="dosological_disk">Δοδολογικός δίσκος\nΣυνιστώμενη Δοσολογία για βρέφη, παιδιά και εφήβους</string>
+    <string name="recommended_dosage">Αναγράφεται η καθημερινή συνιστώμενη δοσολογία. Για τις πλήρεις συνταγογραφικές πληροφορίες σας παρακαλούμε να συμβουλευθείτε την Περίληψη Χαρακτηριστικών του Προϊόντος που διατίθεται κατόπιν αιτήματος. Ο αριθμός φυσιγγίων για περίοδο 3 μηνών έχει στρογγυλοποιηθεί.</string>
+    <string name="special_precaution">Κλειστό φυσίγγιο:Διατήρηση και μεταφορά σε ψυγείο (2°C - 8°C). Να μην καταψυχθεί. Να φυλάσσεται στην αρχική συσκευασία για προστασία από το φως. Δίαρκεια ζωής μετά την πρώτη  χρήση: μετά την πρώτη χρήση το φυσίγγιο πρέπει να παραμείνει στη συσκευή τύπου πένας (pen) και να φυλάσσεται σε ψυγείο (2°C - 8°C) για μέγιστο διάστημα 28 ημερών. Φυλάσσεται στην αρχική συσκευή τύπου πένας (pen) για να προστατεύεται από το φως.</string>
+    <string name="information">Χρησιμοποιούμενες συντομεύσεις: IRC - χρόνια νεφρική ανεπάρκεια, GH - αυξητική ορμόνη, GHD - έλλειψη αυξητικής ορμόνης, PWS - σύνδρομο Prader-Willi, SGA - κοντό ανάστημα για την ηλικία κύησης, TS - σύνδρομο Turner, ΠΧΠ - περίληψη χαρακτηριστικών του προϊόντος.\n Η παρούσα ηλεκτρονική εφαρμογή κινητών προορίζεται για τους επαγγελματίες υγείας. Το Omnitrope® είναι φάρμακο που χορηγείται με περιορισμένη ιατρική συνταγή από ειδικό γιατρό και μετά από γνωμάτευση και έγκριση της αρμόδιας επιτροπής του Υπ.Υγείας.</string>
+    <string name="title_activity_dosemeter">DosemeterActivity</string>
+    <string name="ghd_note_one">*Συνιστώμενη δοσολογία για GHD:0,025 - 0,035 mg/kg/ημέρα, PWS και SGA:0,035 mg/kg/ημέρα</string>
+    <string name="ghd_note_two">†Σημείωση:για το PWS δεν πρέπει να υπερβείτε την ημερήσια δόση των 2,7 mg</string>
+    <string name="ghd_note_three">Περίοδος ισχύος 28 ημέρες: Μετά την πρώτη χρήση, το φυσίγγιο πρέπει να παραμείνει στην πένα και να διατηρηθεί στο ψυγείο (2°C - 8°C) για μέγιστο διάστημα 28 ημερών</string>
+    <string name="turner_note">Συνιστώμενη δοσολογία για σύνδρομο Turner και IRC:0,045 - 0,050 mg/kg/ημέρα</string>
+    <string name="committee_note_zero">Εισάγετε εβδομαδιαία δόση αυξητικής ορμόνης σε mg, βάση της εγκριτικής απόφασης της επιτροπής.</string>
+
+    <string-array name="gdh_weights">
+        <item>9 - 11.5</item>
+        <item>11.5 - 14.5</item>
+        <item>14.5 - 17.5</item>
+        <item>17.5 - 20.0</item>
+        <item>20 - 23</item>
+        <item>23 - 26</item>
+        <item>26 - 29</item>
+        <item>29 - 32</item>
+        <item>32 - 35</item>
+        <item>35 - 40</item>
+        <item>40 - 46</item>
+        <item>46 - 58</item>
+        <item>58 - 72</item>
+        <item>72 - 95</item>
+        <item>&gt;95.0</item>
+    </string-array>
+
+    <string-array name="gdh_dosages">
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>2.0</item>
+        <item>2.5</item>
+        <item>3.3</item>
+    </string-array>
+
+    <string-array name="gdh_injections">
+        <item>4†</item>
+        <item>4†</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>19</item>
+        <item>23</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="turner_weight">
+        <item>10.0 - 12.0</item>
+        <item>12.0 - 14.0</item>
+        <item>14.0 - 16.0</item>
+        <item>16.0 - 18.0</item>
+        <item>18.0 - 20.0</item>
+        <item>20.0 - 22.0</item>
+        <item>22.0 - 24.0</item>
+        <item>24.0 - 28.0</item>
+        <item>28.0 - 32.0</item>
+        <item>32.0 - 40.0</item>
+        <item>40.0 - 50.0</item>
+        <item>50.0 - 60.0</item>
+        <item>&gt;60.0</item>
+    </string-array>
+
+    <string-array name="turner_dosage">
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.0</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>2.0</item>
+        <item>2.5</item>
+        <item>3.0</item>
+    </string-array>
+
+    <string-array name="turner_injections">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>19</item>
+        <item>23</item>
+        <item>28</item>
+    </string-array>
+
+    <string-array name="products_column">
+        <item>OMNITROPE 10</item>
+        <item>Genotropin 5.3</item>
+        <item>Genotropin 12</item>
+        <item>Humatrope 12</item>
+        <item>Saizen 8</item>
+        <item>Humatrope 6</item>
+        <item>Saizen 5.83</item>
+        <item>Nutropin AQ 10</item>
+        <item>Zomacton 4</item>
+    </string-array>
+
+    <string-array name="company_column">
+        <item>PHARMATHEN SANDOZ</item>
+        <item>PFIZER</item>
+        <item>PFIZER</item>
+        <item>PHARMASERVE LILLY</item>
+        <item>MERCK</item>
+        <item>PHARMASERVE LILLY</item>
+        <item>MERCK</item>
+        <item>IPSEN</item>
+        <item>HELPEN FERRING</item>
+    </string-array>
+
+    <string-array name="mg_strength_column">
+        <item>10.00</item>
+        <item>5.30</item>
+        <item>12.00</item>
+        <item>12.00</item>
+        <item>8.00</item>
+        <item>6.00</item>
+        <item>5.83</item>
+        <item>10.00</item>
+        <item>4.00</item>
+    </string-array>
+
+    <string-array name="price_per_mg_column">
+        <item>11.83</item>
+        <item>13.07</item>
+        <item>13.02</item>
+        <item>15.67</item>
+        <item>17.05</item>
+        <item>16.10</item>
+        <item>16.93</item>
+        <item>16.68</item>
+        <item>18.27</item>
+    </string-array>
+</resources>
