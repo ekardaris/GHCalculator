@@ -1,2 +1,2 @@
 # GHCalculator
-An Android calculator for the GH substance
+An Android cost calculator for the GH substance
